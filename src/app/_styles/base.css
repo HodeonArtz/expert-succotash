@@ -6,4 +6,15 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  h1 {
+    @apply text-3xl font-semibold;
+  }
+}
+
+@theme inline {
+  --color-primary: #227d53;
+  --color-secondary: #13452d;
+  --color-background: #fff;
+  --color-background-layout: #f7f7f7;
 }

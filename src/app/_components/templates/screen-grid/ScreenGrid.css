@@ -1,0 +1,16 @@
+@reference "../../styles.css";
+
+@layer templates {
+  .screen-grid {
+    @apply p-5 min-h-200 grid grid-cols-[200px_auto] grid-rows-[100px_auto] gap-4;
+  }
+  .screen-grid__cell {
+    @apply bg-background-layout rounded-4xl p-4;
+  }
+  .screen-grid__cell--aside {
+    @apply row-span-2 flex flex-col;
+  }
+  .screen-grid__cell--topbar {
+    @apply col-start-2 row-start-2;
+  }
+}

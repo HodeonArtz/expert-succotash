@@ -1,9 +1,12 @@
+import ScreenGrid from "./_components/templates/screen-grid/ScreenGrid";
+
 export default function Home() {
   return (
-    <div className="">
-      <aside>
-        <h1>Logo</h1>
-      </aside>
-    </div>
+    <ScreenGrid
+      aside={<h1 role="figure">Brand</h1>}
+      topbar={<span>search bar</span>}
+    >
+      content
+    </ScreenGrid>
   );
 }

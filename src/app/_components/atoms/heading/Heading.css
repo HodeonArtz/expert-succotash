@@ -1,0 +1,98 @@
+@reference "../../styles.css";
+
+@layer atoms {
+  /* base */
+  .heading {
+    @apply leading-tight tracking-tight;
+  }
+
+  /* variant */
+  .heading--display {
+    @apply text-5xl;
+  }
+  .heading--title {
+    @apply text-3xl;
+  }
+  .heading--section {
+    @apply text-2xl;
+  }
+  .heading--card {
+    @apply text-xl;
+  }
+  .heading--subtle {
+    @apply text-base;
+  }
+
+  /* weight */
+  .heading--regular {
+    @apply font-normal;
+  }
+  .heading--medium {
+    @apply font-medium;
+  }
+  .heading--semibold {
+    @apply font-semibold;
+  }
+  .heading--bold {
+    @apply font-bold;
+  }
+
+  /* tone */
+  .heading--default {
+    @apply text-foreground;
+  }
+  .heading--muted {
+    @apply text-muted-foreground;
+  }
+  .heading--primary {
+    @apply text-primary;
+  }
+  .heading--danger {
+    @apply text-destructive;
+  }
+
+  /* align */
+  .heading--left {
+    @apply text-left;
+  }
+  .heading--center {
+    @apply text-center;
+  }
+  .heading--right {
+    @apply text-right;
+  }
+
+  /* size (override) */
+  .heading--xs {
+    @apply text-xs;
+  }
+  .heading--sm {
+    @apply text-sm;
+  }
+  .heading--md {
+    @apply text-base;
+  }
+  .heading--lg {
+    @apply text-lg;
+  }
+  .heading--xl {
+    @apply text-xl;
+  }
+  .heading--2xl {
+    @apply text-2xl;
+  }
+  .heading--3xl {
+    @apply text-3xl;
+  }
+  .heading--4xl {
+    @apply text-4xl;
+  }
+  .heading--5xl {
+    @apply text-5xl;
+  }
+
+  /* truncate */
+  .heading--truncate {
+    @apply truncate;
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../styles.css";
+
+@layer organisms {
+  .navbar {
+    @apply flex flex-col gap-2;
+  }
+
+  .navbar__heading {
+    @apply px-6;
+  }
+
+  .navbar__item-list {
+    @apply flex flex-col gap-1;
+  }
+  .navbar__item {
+    @apply *:px-6;
+  }
+}

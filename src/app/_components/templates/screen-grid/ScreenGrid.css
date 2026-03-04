@@ -2,7 +2,7 @@
 
 @layer templates {
   .screen-grid {
-    @apply p-5 min-h-200 grid grid-cols-[200px_auto] grid-rows-[100px_auto] gap-4;
+    @apply p-5 min-h-200 grid grid-cols-[230px_auto] grid-rows-[100px_auto] gap-4;
   }
 
   .screen-grid__cell {
@@ -19,6 +19,6 @@
   }
 
   .screen-grid__brand {
-    @apply h-25 flex items-center justify-center;
+    @apply h-25 flex items-center p-6;
   }
 }

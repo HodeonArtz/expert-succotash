@@ -14,6 +14,7 @@
 
 @theme inline {
   --color-primary: #227d53;
+  --color-primary-light: #36c985;
   --color-secondary: #13452d;
   --color-background: #fff;
   --color-background-layout: #f7f7f7;

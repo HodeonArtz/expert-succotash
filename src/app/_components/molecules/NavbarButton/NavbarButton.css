@@ -1,0 +1,14 @@
+@reference "../../styles.css";
+
+@layer molecules {
+  .navbar-button {
+    @apply flex gap-2 items-center *:text-gray-400 hover:*:text-gray-700 hover:bg-gray-200 cursor-pointer w-full p-2;
+  }
+  .navbar-button--active {
+    @apply *:text-primary hover:*:text-primary-light;
+  }
+
+  .navbar-button__icon {
+    @apply text-primary;
+  }
+}

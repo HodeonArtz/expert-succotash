@@ -1,0 +1,7 @@
+/* Aquí se importan los demás estilos de css para usarlos en la aplicación */
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@import "./themes.css";
+@import "./base.css";
+@import "./utilities.css";

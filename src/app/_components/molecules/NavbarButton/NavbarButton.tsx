@@ -18,7 +18,7 @@ const NavbarButton = ({ children, leftSection, isActive }: Props) => {
       })}
     >
       {leftSection && <figure>{leftSection}</figure>}
-      <Heading weight="semibold" size="lg" as="h3">
+      <Heading weight={isActive ? "semibold" : "regular"} size="lg" as="h3">
         {children}
       </Heading>
     </button>

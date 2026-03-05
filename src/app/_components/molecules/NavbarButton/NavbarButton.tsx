@@ -17,9 +17,7 @@ const NavbarButton = ({ children, leftSection, isActive }: Props) => {
         "navbar-button--active": isActive,
       })}
     >
-      {leftSection && (
-        <figure className="navbar-button__icon">{leftSection}</figure>
-      )}
+      {leftSection && <figure>{leftSection}</figure>}
       <Heading weight="semibold" size="lg" as="h3">
         {children}
       </Heading>

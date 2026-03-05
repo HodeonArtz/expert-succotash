@@ -7,8 +7,4 @@
   .navbar-button--active {
     @apply *:text-primary hover:*:text-primary-light;
   }
-
-  .navbar-button__icon {
-    @apply text-primary;
-  }
 }

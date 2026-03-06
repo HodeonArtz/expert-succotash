@@ -2,7 +2,7 @@
 
 @layer templates {
   .screen-grid {
-    @apply p-5 min-h-200 grid grid-cols-[230px_auto] grid-rows-[100px_auto] gap-4;
+    @apply p-5 min-h-200 grid grid-cols-[230px_auto] grid-rows-[fit-content(100%)_1fr] gap-4;
   }
 
   .screen-grid__cell {

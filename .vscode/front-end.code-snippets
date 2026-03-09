@@ -1,0 +1,27 @@
+{
+  "import main css ref": {
+    "body": "@reference \"../../styles.css\";",
+    "prefix": ["atomcss", "acss", "refstyles"],
+    "description": "CSS directive for connecting structured atomic design CSS into the main CSS file",
+  },
+  "set atoms layer": {
+    "body": ["@layer atoms {", "  $1", "}"],
+    "prefix": "latom",
+  },
+  "set molecules layer": {
+    "body": ["@layer molecules {", "  $1", "}"],
+    "prefix": "lmolecule",
+  },
+  "set organisms layer": {
+    "body": ["@layer organisms {", "  $1", "}"],
+    "prefix": "lorganism",
+  },
+  "set template layer": {
+    "body": ["@layer template {", "  $1", "}"],
+    "prefix": "ltemplate",
+  },
+  "apply tailwindcss tyles": {
+    "body": ["$1{", "  @apply $2;", "}"],
+    "prefix": "apply",
+  },
+}

@@ -1,0 +1,7 @@
+@reference "../../styles.css";
+
+@layer atoms {
+  .heading-description {
+    @apply text-lg text-muted-foreground;
+  }
+}

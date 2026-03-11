@@ -1,0 +1,24 @@
+@reference "../../styles.css";
+
+@layer molecules {
+  .icon-button {
+    @apply flex gap-2;
+  }
+  .icon-button--show-left {
+    @apply pl-4;
+    .icon-button__left-section {
+      @apply inline;
+    }
+  }
+  .icon-button--show-right {
+    @apply pr-4;
+    .icon-button__right-section {
+      @apply inline;
+    }
+  }
+
+  .icon-button__left-section,
+  .icon-button__right-section {
+    @apply hidden;
+  }
+}

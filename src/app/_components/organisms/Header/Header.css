@@ -1,0 +1,13 @@
+@reference "../../styles.css";
+
+@layer organisms {
+  .header {
+    @apply flex items-start gap-8;
+  }
+  .header__title {
+    @apply flex flex-col items-start grow gap-3;
+  }
+  .header__right-section {
+    @apply flex gap-4 py-2;
+  }
+}

@@ -2,6 +2,6 @@
 
 @layer atoms {
   .heading-description {
-    @apply text-lg text-muted-foreground;
+    @apply text-base text-muted-foreground leading-5;
   }
 }

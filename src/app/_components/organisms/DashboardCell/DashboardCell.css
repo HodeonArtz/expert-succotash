@@ -1,0 +1,7 @@
+@reference "../../styles.css";
+
+@layer organisms {
+  .dashboard-cell {
+    @apply bg-white max-w-30 rounded-xl p-4;
+  }
+}

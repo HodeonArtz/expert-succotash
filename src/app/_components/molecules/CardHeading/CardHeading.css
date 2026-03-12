@@ -1,0 +1,7 @@
+@reference "../../styles.css";
+
+@layer molecules {
+  .card-heading {
+    @apply flex justify-between items-start;
+  }
+}

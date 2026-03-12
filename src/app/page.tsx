@@ -1,6 +1,7 @@
 import { Button } from "./_components/atoms/button/Button";
 import Icon from "./_components/atoms/icon/Icon";
 import IconButton from "./_components/molecules/IconButton/IconButton";
+import DashboardCell from "./_components/organisms/DashboardCell/DashboardCell";
 import Header from "./_components/organisms/Header/Header";
 
 export default function Home() {
@@ -21,6 +22,9 @@ export default function Home() {
       >
         Dashboard
       </Header>
+      <div>
+        <DashboardCell label="header">Content</DashboardCell>
+      </div>
     </>
   );
 }

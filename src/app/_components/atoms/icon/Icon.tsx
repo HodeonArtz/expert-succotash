@@ -1,6 +1,6 @@
 import {
+  IconArrowUpRight,
   IconCalendar,
-  IconCircleArrowRight,
   IconGraph,
   IconGrid3x3,
   IconHelp,
@@ -33,7 +33,7 @@ export const iconsMap = {
   email: IconMail,
   notification: IconNotification,
   add: IconPlus,
-  navigate: IconCircleArrowRight,
+  navigate: IconArrowUpRight,
   record: IconVideo,
   start: IconPlayerPlay,
   pause: IconPlayerPause,
